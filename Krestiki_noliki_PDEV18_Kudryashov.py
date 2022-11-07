@@ -35,8 +35,7 @@ def hod_igroka():
             j = hod[1] + 1
             value = True
         except (TypeError, ValueError, IndexError):
-            print("Вы ввели неверное значение!")
-            continue
+            print("Вы ввели неверное значение!"
     # цикл отрабатывает вводимые значения, при неправильном вводе обрабатыввается одна из ошибок
     if  (i and j) >= 1 and (i and j) <= 4:
         if logo[i][j] == '_':
